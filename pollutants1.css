@@ -1,0 +1,58 @@
+*{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+body {
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 36px;
+	margin: 0;
+}
+
+section {
+	margin: 20px 0;
+	padding: 20px;
+	border: 1px solid #ccc;
+}
+p{
+  font-size: 26px;
+}
+
+h2 {
+	font-size: 34px;
+	margin: 0 0 10px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+  font-size: 26px;
+
+}
+
+
+li:before {
+	content: "\2022";
+	color: #333;
+	display: inline-flex;
+	width: 1em;
+	margin-left: 1em;
+
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 4px;
+	text-align: center;
+}
